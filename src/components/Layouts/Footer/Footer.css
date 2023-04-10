@@ -1,0 +1,38 @@
+.container-footer {
+  padding: 3rem;
+  margin-bottom: 0px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-footer-light {
+  background: var(--layout-light-color);
+}
+
+.container-footer-dark {
+  background: var(--layout-dark-color);
+}
+
+.container-img {
+  width: 200px;
+}
+
+.container-img-dark {
+  background-color: white;
+}
+
+.redes-sociales {
+  width: 20px;
+  margin: 5px;
+}
+
+.redes-sociales-light {
+  background-color: black;
+  filter: invert()
+}
+
+.redes-sociales-dark {
+  background-color: black;
+}

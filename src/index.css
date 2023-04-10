@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --layout-light-color: rgb(170, 177, 184);
+  --layout-dark-color: black;
+  --dark-mode-font-color: white;
+  --card-light-color: white;
+  --card-dark-color: rgb(170, 177, 184);
+}
+
+.container-light {
+  background-color: white;
+  color: black;
+}
+.container-dark {
+  background-color: var(--card-dark-color);
+  color: white;
+}

@@ -1,0 +1,40 @@
+.red-text {
+  color: red;
+}
+.dark-mode-text {
+    color: var(--dark-mode-font-color)
+}
+.container-navbar {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.container-navbar-light {
+    background-color: var(--layout-light-color);
+}
+.container-navbar-dark {
+    background-color: var(--layout-dark-color);
+}
+.container-items {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-items {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    text-align: center;
+}
+.navbar-items-active {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    text-align: center;
+}
